@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalheEmpresaActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:text="Empresa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/detalhe_empresa" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis accumsan lectus eu ornare aliquam. Nam mattis erat non lobortis tincidunt. In sed tellus et dolor volutpat molestie vitae nec magna. Proin nec lacus id quam facilisis consequat non vitae tellus. Integer sed consectetur justo, at gravida quam. Nam porttitor mauris at augue laoreet, sit amet commodo tellus interdum. Maecenas semper consectetur interdum. Pellentesque non sollicitudin mi, vel auctor metus. Nullam volutpat non metus ut euismod. Vestibulum iaculis lectus vel blandit dapibus. Maecenas mollis enim ut enim pulvinar imperdiet. Suspendisse blandit tempus laoreet. Pellentesque semper in ex ac cursus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed vitae lectus et tellus auctor varius at a orci. Fusce a urna tellus.  Fusce auctor, justo ut cursus porta, metus sem pulvinar sem, vel ultrices erat tortor et sapien. Vestibulum in magna eget enim mattis lacinia fermentum in nunc. Etiam non est tincidunt, hendrerit urna eu, finibus justo. Quisque ac risus diam. Integer malesuada imperdiet nisl, nec imperdiet dolor laoreet eu. Nunc semper sit amet turpis vestibulum blandit. Phasellus vitae orci eget libero posuere condimentum. Pellentesque consequat vestibulum ipsum, congue porttitor est pellentesque ut. Etiam egestas, enim id tempus convallis, odio risus consequat sapien, ac lacinia sem magna volutpat ante. Morbi nisl mi, accumsan vel turpis sit amet, sodales vulputate metus. Donec gravida libero ut magna ultricies, eget egestas nisl faucibus. In hac habitasse platea dictumst. Nullam egestas tempus nisl a dapibus. In lacinia congue enim. Integer interdum magna non mauris suscipit mollis.  Integer nec ligula non est tempus tristique eu a velit. Phasellus eros turpis, maximus a fringilla ac, dictum sit amet augue. Curabitur cursus iaculis arcu. Integer luctus lectus in eleifend imperdiet. Nam sit amet orci ex. Praesent blandit, odio at condimentum placerat, augue eros auctor elit, in ultricies lorem leo nec enim. Duis nec ornare odio, nec eleifend enim. Phasellus finibus fringilla mauris eu pretium. Nunc nec nunc turpis. Proin fermentum, lacus sit amet aliquam venenatis, odio tortor porttitor orci, eget facilisis diam massa eu mauris. Nullam sed mauris orci. Morbi finibus et nisl quis aliquet. Nulla congue lacinia arcu, id sagittis neque. Nullam at est at nisl vestibulum molestie. Curabitur ante nulla, ornare et venenatis in, semper sit amet quam. Integer lectus urna, euismod nec placerat et, lacinia eu ligula.  Sed diam ligula, pellentesque nec turpis quis, eleifend malesuada mauris. Suspendisse sit amet neque at mauris consequat congue quis quis lacus. Quisque volutpat sapien arcu, quis aliquet risus aliquet id. Vestibulum leo nunc, venenatis a accumsan quis, tristique eu felis. Ut vel tempor tortor. Aliquam erat volutpat. Fusce eleifend ante ut diam cursus posuere. Proin pretium odio in sapien sollicitudin, a rhoncus risus sodales. Suspendisse sagittis semper felis vitae pharetra.  Donec euismod varius elit, quis imperdiet sapien elementum eu. Fusce placerat purus vitae nisi congue posuere. Vivamus in aliquet urna. Donec sed nunc eu enim finibus blandit non id lacus. Nam egestas eros eu turpis porttitor consequat. Nam venenatis ipsum et magna maximus, nec blandit sapien vestibulum. Pellentesque magna urna, sollicitudin sit amet nunc eget, auctor commodo lectus." />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
